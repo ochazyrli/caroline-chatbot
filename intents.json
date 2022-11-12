@@ -1,0 +1,47 @@
+{"intents": [
+    {"tag": "salam",
+     "patterns": ["Hai", "Hi", "Halo", "Apa Kabar", "Selamat Pagi", "Selamat Siang", "Selamat Malam", "Salam", "Ping", "P"],
+     "responses": ["Halo, Carolline boleh tau namamu gak?", "Hai kak, nama kakak siapa yaa....", "Halo, siapa namanya ya kak", "Halo selamat datang di Carolline (Beauty Consultant), boleh perkenalkan diri kamu dulu gak?", "Hai Kawan, siapa namamu?"]
+    },
+    {"tag": "nama",
+     "patterns": ["nama ku", "nama saya adalah", "nama:", "my name is", "my name", "nama gue", "namaku", "namaku adalah", "nama yaa.. nama saya"],
+     "responses": ["Halo kak, Carolline bisa merekomendasikan produk - produk kecantikan seperti make-up, skincare dan produk kecantikan lainnya. Ada yang bisa Carolline bantu rekomendasikan produk kecantikan kakak?", "Halo kak! Aku Carolline siap membantu Kakak dalam merekomendasikan produk kecantikan untuk Kakak! Ada yang bisa Carolline bantu rekomendasikan?"]
+    },
+    {"tag" : "Moisturizers",
+     "patterns" : ["kulit aku kering, kira - kira Moisturizer yang cocok apa yaa", "kak, Moisturizer atau pelembab yang bagus apa yaa",
+      "kak, aku butuh rekomendasi pelembab atau moisturizer", "moisturizer yang bagus apa ya?", 
+      "kak, mau pelembab yang lagi viral dong", "ada rekomendasi moisturizer atau pelembab?", "pelembab yang bagus apa ya?"],
+     "responses" : ["Kalau boleh Carolline tau, sebelumnya kakak pakai produk Moisturizer apa ya?"]
+    },
+    {"tag" : "Face Serums",
+    "patterns" : ["ada gak ka face serum yang cocok buat aku", "ka, face serum yang murah dan bagus ada gak?", "ka kulit aku sensitif, ada face serum yang cocok buat kulit sensitif gak?", "ka mau rekomendasi face serum dong", "kak, mau nanya ada face serum yang sedang viral dong"],
+    "responses" : ["Kalau boleh Carolline tau, sebelumnya kakak pakai produk Face Serum apa ya?"]
+    },
+    {"tag" : "Face Wash & Cleansers",
+    "patterns" : ["ada gak face wash yang bagus buat aku ka", "ka, sabun cuci muka yang bagus apa yaa", "ka, boleh minta rekomendasi face wash dan cleanser yang bagus dong", "ka, rekomendasi facewash buat kulit sensitif dong", "kak, mau nanya ada face wash yang sedang viral dong"],
+    "responses" : ["Kalau boleh Carolline tau, sebelumnya kakak pakai produk Face Wash atau Cleanser apa ya?"]
+    },
+    {"tag" : "Face Masks",
+    "patterns" : ["ada gak face mask yang bagus buat aku ka", "ka, mau masker yang viral dong", "ka, boleh minta rekomendasi masker wajah yang bagus ga ka", "ka, rekomendasi masker buat kulit sensitif dong", "kak, butuh masker yang ga membuat kulit jadi panas", "ka, face mask yang cocok untuk ngurangi minyak apa yaa"],
+    "responses" : ["Kalau boleh Carolline tau, sebelumnya kakak pakai produk Face Mask apa ya?"]
+    },
+    {"tag" : "Perfume",
+    "patterns" : ["ka, saya butuh rekomendasi parfum", "ka, parfum yang bagus apa yaa", "ka, parfum yang ga ada bahan", "ka mau parfum yang mengandung bahan", "aku mau parfum yang mahal"],
+    "responses" : ["Kalau boleh Carolline tau, sebelumnya kakak pakai produk Parfum apa ya?"]
+    },
+    {"tag" : "link",
+    "patterns" : ["kak, harga produk berapa yaa", "kak kalau mau beli produknya di Carolline harganya berapa yaa", "ka, mau list harga produknya dong", "ka, harganya mahal atau gak yaa", "kak, harganya berapa yaa", "ka mau produknya tapi harganya berapa yaa"],
+    "responses" : ["Boleh kak. Silakan kunjungi web kami di http:wwww.Carolline-shop.com", "Carolline saranin kakak untuk mengunjungi situs http:wwww.Carolline-shop.com", "Silakan kunjungi web kita ka http:wwww.Carolline-shop.com untuk lihat detail produknya", "Terima kasih kak. Carolline boleh minta kakak kunjungi situs http:wwww.Carolline-shop.com untuk lihat detail produknya"]
+    },
+    {"tag" : "Gratis",
+    "patterns" : ["kakak boleh minta produknya gratis dong", "ka ada produk gratis gak", "ka, mau produknya tapi gratis yaaa :)", "ka mau tester gratis dong", "kak, produk gratis yang mana yaa", "gratis produknya dong kakak"],
+    "responses" : ["Jangan begitu kak... Nanti Carolline bangkrut kalau kasih gratis", "sampai sekarang, Carolline belum menyediakan promo kak", "Maaf kak tidak ada produk GRATIS", "Maaf kak saat ini belum ada produk GRATIS", "Carolline saranin kakak kunjungi web http:wwww.Carolline-shop.com untuk lihat promo - promonya"]
+    },
+    {"tag" : "Closing",
+     "patterns" : ["Dadah", "Selamat Tinggal", "Dah", "Daah", "Semoga harimu menyenangkan", "Ok makasih", "Sampai Jumpa Lagi", "Ok bye", "Terima kasih buat rekomendasinya", "terima kasih ka"],
+     
+     "responses" : ["Terima kasih telah menggunakan layanan Carolline", "Terima kasih telah bertanya mengenai produk kami :D", "Terima kasih telah menggunakan Carolline, jika ada masukan mohon dapat disampaikan ke Customer service.",
+    "Terima kasih, Carolline akan selalu berusaha memberikan rekomendasi terbaik untuk kakak.", "Terima kasih, Carolline senang dapat membantu Anda memilih produk yang tepat.", "Terima kasih telah menggunakan Carolline, semoga pilihannya sesuai dengan yang dicari ya kak"]
+    }
+]
+}
